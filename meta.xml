@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+  <id>ddns</id>
+  <name>Dynamic DNS</name>
+  <description>Adds Dynamic DNS to Plesk</description>
+  <category>dns</category>
+  <version>1.0</version>
+  <release>1</release>
+  <os>unix</os>
+  <vendor>Joey Weijters</vendor>
+  <url>https://joey.weijte.rs/</url>
+  <plesk_min_version>18.0.56</plesk_min_version>
+</module>
