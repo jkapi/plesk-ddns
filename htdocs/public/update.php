@@ -33,6 +33,8 @@ if (isset($_GET["id"]) && isset($_GET["key"]))
     {
         if (empty($ipv4))
             die("Can't set A record to IPV6 address");
+        if ($ipv4 === $record->getValue())
+            die("No update necessary");
 
         $record->setValue($ipv4);
     }
@@ -40,6 +42,8 @@ if (isset($_GET["id"]) && isset($_GET["key"]))
     {
         if (empty($ipv6))
             die("Can't set AAAA record to IPV4 address");
+        if ($ipv6 === $record->getValue())
+            die("No update necessary");
 
         $record->setValue($ipv6);
     }
