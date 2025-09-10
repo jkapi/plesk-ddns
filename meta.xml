@@ -4,7 +4,7 @@
   <name>Dynamic DNS</name>
   <description>Adds Dynamic DNS to Plesk</description>
   <category>dns</category>
-  <version>1.0</version>
+  <version>1.1</version>
   <release>1</release>
   <os>unix</os>
   <vendor>Joey Weijters</vendor>

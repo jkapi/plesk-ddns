@@ -1,3 +1,6 @@
+# 1.1
+* [-] No longer update records if they don't change (Fix #2)
+
 # 1.0
 * [*] Added Dynamic DNS Button to Domain Properties and Panel Navigation
 
