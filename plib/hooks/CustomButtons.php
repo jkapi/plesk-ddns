@@ -19,7 +19,7 @@ class Modules_ddns_CustomButtons extends pm_Hook_CustomButtons
                 self::PLACE_RESELLER_TOOLS_AND_SETTINGS,
             ],
             'title' => 'Dynamic DNS',
-            'description' => 'Description for multi place button',
+            'description' => 'Dynamic DNS',
             'link' => pm_Context::getBaseUrl()
         ]];
     }
